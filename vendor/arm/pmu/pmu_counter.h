@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _PMU_COUNTER_H
+#define _PMU_COUNTER_H
 
 #include <cstdint>
 #include <errno.h>
@@ -100,3 +101,5 @@ T PmuCounter::get_value() const
 
 	return static_cast<T>(value);
 }
+
+#endif

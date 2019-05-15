@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _VALUE_H
+#define _VALUE_H
 
 namespace hwcpipe
 {
@@ -63,7 +64,9 @@ class Value
 
   private:
 	bool      is_int_;
-	long long int_{0};
-	double    double_{0.0};
+	long long int_;
+	double    double_;
 };
 }        // namespace hwcpipe
+
+#endif

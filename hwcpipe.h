@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _HWCPIPE_H
+#define _HWCPIPE_H
 
 #include "cpu_profiler.h"
 #include "gpu_profiler.h"
@@ -88,3 +89,5 @@ class HWCPipe
 };
 
 }        // namespace hwcpipe
+
+#endif

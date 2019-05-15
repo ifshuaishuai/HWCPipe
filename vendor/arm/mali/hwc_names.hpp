@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _HWC_NAMES_H
+#define _HWC_NAMES_H
 
 #ifndef DOXYGEN_SKIP_THIS
 
@@ -3344,3 +3345,5 @@ enum
 }        // namespace mali_userspace
 
 #endif /* DOXYGEN_SKIP_THIS */
+
+#endif

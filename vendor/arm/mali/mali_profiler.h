@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _MALI_PROFILER_H
+#define _MALI_PROFILER_H
 
 #include "gpu_profiler.h"
 
@@ -122,3 +123,5 @@ class MaliProfiler : public GpuProfiler
 };
 
 }        // namespace hwcpipe
+
+#endif

@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _GPU_PROFILER_H
+#define _GPU_PROFILER_H
 
 #include "value.h"
 
@@ -184,3 +185,5 @@ class GpuProfiler
 };
 
 }        // namespace hwcpipe
+
+#endif

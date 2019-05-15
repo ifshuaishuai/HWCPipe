@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _PMU_PROFILER_H
+#define _PMU_PROFILER_H
 
 #include "cpu_profiler.h"
 
@@ -75,3 +76,5 @@ class PmuProfiler : public CpuProfiler
 };
 
 }        // namespace hwcpipe
+
+#endif

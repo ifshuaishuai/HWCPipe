@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _HWCPIPE_LOG_H
+#define _HWCPIPE_LOG_H
 
 #define HWCPIPE_TAG "HWCPipe"
 
@@ -37,4 +38,6 @@
 			fprintf(stdout, __VA_ARGS__);                 \
 			fprintf(stdout, "\n");                        \
 		}
+#endif
+
 #endif

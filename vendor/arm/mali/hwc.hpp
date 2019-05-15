@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _HWC_H
+#define _HWC_H
 
 #include <errno.h>
 #include <fcntl.h>
@@ -411,3 +412,5 @@ static inline int mali_ioctl(int fd, T &arg)
 }        // namespace mali_userspace
 
 #endif /* DOXYGEN_SKIP_THIS */
+
+#endif

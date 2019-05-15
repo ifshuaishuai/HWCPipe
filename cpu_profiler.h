@@ -22,7 +22,8 @@
  * SOFTWARE.
  */
 
-#pragma once
+#ifndef _CPU_PROFILER_H
+#define _CPU_PROFILER_H
 
 #include "value.h"
 
@@ -113,3 +114,5 @@ class CpuProfiler
 };
 
 }        // namespace hwcpipe
+
+#endif
